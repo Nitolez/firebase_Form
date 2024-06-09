@@ -173,7 +173,6 @@ function readOne(email) {
 
 /**************Firebase Auth*****************/
 
-/*
 
 const signUpUser = (email, password) => {
   firebase
@@ -257,5 +256,5 @@ firebase.auth().onAuthStateChanged(function (user) {
   }
 });
 
-*/
+
 

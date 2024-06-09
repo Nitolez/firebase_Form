@@ -7,6 +7,7 @@ body {
     justify-content: center;
     height: 100vh;
     display: grid;
+    width: 100%;
     background-color: rgb(76, 55, 90);
     justify-content: space-around
 }
@@ -44,7 +45,7 @@ img{
     border-color: black;
     max-width: 100%;
 }
-#button-set {
+#button-set, #authy{
     background: white;
     padding: 50px;
     border-radius: 8px;
@@ -81,8 +82,9 @@ input[type="url"]{
     border: 1px solid grey;
     border-radius: 4px;
 }
-button {
+button, input[type="submit"] {
     width: 400px;
+    height: 40px;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -102,20 +104,14 @@ button {
     background: white;
     padding: 50px;
     margin-left: 10px;
+    margin-right: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px black;
-    width: 400px;
+    width: 200px;
     max-width: 100%;
     display: grid;
     justify-content: center;
     background-color: rgb(209, 208, 208);
-}
-input[type="submit"] {
-    background-color: blueviolet;
-    color: white;
-    cursor: pointer;
-    justify-content: center;
-    text-align: center;
 }
 
 /* Para cuando al poner el cursor encima cambie de color */
